@@ -1,7 +1,7 @@
 # Tugas Pencarian Lokasi MapTiler API 🌍
 
-**Nama:** Rael Alfath
-**NIM:** 2026012046
+**Nama:** Asma Ul Husna
+**NIM:** 20250140207
 **Program Studi:** Teknologi Informasi
 
 Ini adalah project sederhana menggunakan HTML, CSS, dan Vanilla JavaScript untuk mencari data koordinat (Longitude & Latitude) serta detail wilayah dari sebuah lokasi.
