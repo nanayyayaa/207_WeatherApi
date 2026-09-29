@@ -12,4 +12,4 @@ Data diambil menggunakan API Geocoding dari [MapTiler](https://api.maptiler.com/
 2. Menampilkan Negara, Provinsi, Kecamatan, Longitude, dan Latitude.
 
 ## Screenshot Hasil GET Data 📸
-![Screenshot Hasil](screenshot.png)
+![Screenshot Hasil]!(image.png)

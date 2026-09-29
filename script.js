@@ -4,10 +4,10 @@ async function cariLokasi() {
     const boxHasil = document.getElementById('boxHasil');
     
     // GANTI INI DENGAN API KEY KAMU
-    const apiKey = 'YOUR_API_KEY_DISINI'; 
+    const apiKey = '6XIQF6FxZxm9lFtsVXfY'; 
 
     if(lokasi === "") {
-        errorText.innerText = "Lokasi tidak boleh kosong ya!";
+        errorText.innerText = "Eh, ketik dulu nama lokasinya dong!";
         boxHasil.style.display = "none";
         return;
     }
