@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pencarian Lokasi MapTiler</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+        <h2>Cari Data Lokasi 📍</h2>
+        <input type="text" id="inputLokasi" placeholder="Masukkan nama daerah (misal: Kasihan)">
+        <button onclick="cariLokasi()">Cari Data</button>
+        <p id="pesanError" class="error"></p>
+
+        <div class="result-box" id="boxHasil">
+            <p><strong>🌍 Negara:</strong> <span id="negara">-</span></p>
+            <p><strong>🏙️ Provinsi:</strong> <span id="provinsi">-</span></p>
+            <p><strong>🏡 Kecamatan/Kota:</strong> <span id="kecamatan">-</span></p>
+            <p><strong>🧭 Longitude:</strong> <span id="lon">-</span></p>
+            <p><strong>🧭 Latitude:</strong> <span id="lat">-</span></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
